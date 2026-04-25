@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-04-25 · quote
+
+"Debugging is not a weapon of correction; it's a tool of discovery." — Dr. Mei Chen Zhou
+
+_via `pollinations`_
+
 ### 2026-04-24 · quote
 
 "Debugging is not a weapon of correction; it's a tool of discovery." — Dr. Mei Chen Zhou
