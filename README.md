@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-04-27 · one-liner
+
+`python -c "import os; print([f for f in os.listdir() if f.endswith('.py')])"` — prints all Python files in the current directory.
+
+_via `pollinations`_
+
 ### 2026-04-26 · joke
 
 Why do programmers prefer dark mode? Because light attracts bugs.
