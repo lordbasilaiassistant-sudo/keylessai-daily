@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-04-28 · quote
+
+"Debugging is not a weapon of correction; it's a tool of discovery." — Dr. Mei Chen Zhou
+
+_via `pollinations`_
+
 ### 2026-04-27 · one-liner
 
 `python -c "import os; print([f for f in os.listdir() if f.endswith('.py')])"` — prints all Python files in the current directory.
