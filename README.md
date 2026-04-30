@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-04-30 · tip
+
+Start Python’s tracemalloc before importing any large libraries (e.g. `tracemalloc.start(25)`), then take a snapshot immediately after the imports and another after the code runs; using `snapshot1.compare_to(snapshot2, 'lineno')` will pinpoint the specific third‑party modules and line numbers that caused the largest heap increase.
+
+_via `pollinations`_
+
 ### 2026-04-29 · one-liner
 
 `python -c "import os; print([f for f in os.listdir() if f.endswith('.py')])"` — prints all Python files in the current directory.
