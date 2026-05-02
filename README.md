@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-05-02 · changelog
+
+v2.9.1 — The parser now accepts comments inside `{{` blocks; sarcasm remains unchecked.
+
+_via `pollinations`_
+
 ### 2026-05-01 · haiku
 
 Blue screen flickers red  
