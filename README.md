@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-05-04 · log-line
+
+2026-05-04T03:12:07+00:00 [error] 0#0: *1245 upstream prematurely closed connection while reading response header — The upstream PHP‑FPM pool crashed or timed out, sending no response header.
+
+_via `pollinations`_
+
 ### 2026-05-03 · log-line
 
 2026-05-03T03:04:21Z ERROR [service-auth] failed to connect to Redis: connection refused — the Redis instance crashed and restarted, causing auth failures.
