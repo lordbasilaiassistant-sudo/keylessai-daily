@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-05-05 · tip
+
+Add `--mount=type=cache,sharing=locked,target=/root/.cache/pip` to the `RUN pip install -r requirements.txt` line in your Dockerfile; this preserves the pip wheel cache across builds so changes to source files don’t invalidate the dependency layer.
+
+_via `pollinations`_
+
 ### 2026-05-04 · log-line
 
 2026-05-04T03:12:07+00:00 [error] 0#0: *1245 upstream prematurely closed connection while reading response header — The upstream PHP‑FPM pool crashed or timed out, sending no response header.
