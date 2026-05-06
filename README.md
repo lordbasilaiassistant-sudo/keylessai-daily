@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-05-06 · changelog
+
+v5.1.3 — Added rule that warns when `assert False` is used in production, because you’re just affirming your suspicion that the code will never run.
+
+_via `pollinations`_
+
 ### 2026-05-05 · tip
 
 Add `--mount=type=cache,sharing=locked,target=/root/.cache/pip` to the `RUN pip install -r requirements.txt` line in your Dockerfile; this preserves the pip wheel cache across builds so changes to source files don’t invalidate the dependency layer.
