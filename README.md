@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-05-09 · fact
+
+The deprecated 1989 GIF89a image standard’s Netscape-specific looping extension, designed for a browser that has been defunct for nearly 20 years, remains the only cross-browser native standard for looping image animations as of 2026, with no replacement format having gained universal support to displace it.
+
+_via `yqcloud`_
+
 ### 2026-05-08 · haiku
 
 Midnight screens glow deep
