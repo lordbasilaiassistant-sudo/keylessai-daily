@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-05-10 · changelog
+
+v1.8.3 — Added dynamic throttling of console output; logs now get line‑wrapped or killed so your terminal doesn’t have to breathe.
+
+_via `pollinations`_
+
 ### 2026-05-09 · fact
 
 The deprecated 1989 GIF89a image standard’s Netscape-specific looping extension, designed for a browser that has been defunct for nearly 20 years, remains the only cross-browser native standard for looping image animations as of 2026, with no replacement format having gained universal support to displace it.
