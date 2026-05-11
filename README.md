@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-05-11 · log-line
+
+2026-05-04T03:01:42.758Z WARN [lb-01] Proxy to 10.112.34.56:80 failed — timeout after 2.5s — The backend server is overloaded, unable to respond within the configured timeout period.
+
+_via `pollinations`_
+
 ### 2026-05-10 · changelog
 
 v1.8.3 — Added dynamic throttling of console output; logs now get line‑wrapped or killed so your terminal doesn’t have to breathe.
