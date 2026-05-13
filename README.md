@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-05-13 · fact
+
+Dead code elimination, a standard optimization pass in nearly all modern compilers, strips out entire blocks of code that are provably unreachable during execution—even if those blocks contain explicit error assertions, calls to external logging functions, or other side effects the developer added to catch impossible logic bugs during testing.
+
+_via `yqcloud`_
+
 ### 2026-05-12 · haiku
 
 Pattern finds the match  
