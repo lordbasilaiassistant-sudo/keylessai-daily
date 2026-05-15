@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-05-15 · fact
+
+The 2021 6-hour global Meta (Facebook, Instagram, WhatsApp) outage stemmed from a misconfigured BGP routing update that withdrew all of the company’s public IP prefixes from the internet, and because Meta’s internal employee access, DNS, and monitoring tools were all hosted on the same now-unreachable infrastructure, engineers had to physically travel to data centers with magnetic access cards to manually reboot core servers to restore service.
+
+_via `yqcloud`_
+
 ### 2026-05-14 · tip
 
 If your script loops over file patterns that might resolve to nothing, enable the nullglob option first: `shopt -s nullglob`; this makes the glob expand to an empty list instead of leaving the literal pattern, so the loop skips gracefully. Reset it later with `shopt -u nullglob` if you need the default behavior again.
