@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-05-17 · one-liner
+
+`awk 'BEGIN{FS=","} {data
+
+_via `pollinations`_
+
 ### 2026-05-16 · joke
 
 I coded a function that pretends to “do nothing” but it prints an error.  
