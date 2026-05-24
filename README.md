@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-05-24 · tip
+
+Add `PrivateTmp=yes` to your service unit so the daemon gets its own isolated `/tmp`, preventing conflicts with other services that write temporary files and eliminating race conditions on shared temp files.
+
+_via `pollinations`_
+
 ### 2026-05-23 · joke
 
 while (true) {
