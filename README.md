@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-05-25 · one-liner
+
+cat domains.txt | xargs -n1 -I{} sh -c 'echo -n "{}: "; echo | openssl s_client -servername {} -connect {}:443 2>/dev/null | openssl x509 -noout -enddate | cut -d= -f2' — Prints the SSL expiry date for each domain in the list.
+
+_via `pollinations`_
+
 ### 2026-05-24 · tip
 
 Add `PrivateTmp=yes` to your service unit so the daemon gets its own isolated `/tmp`, preventing conflicts with other services that write temporary files and eliminating race conditions on shared temp files.
