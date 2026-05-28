@@ -37,6 +37,14 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-05-28 · haiku
+
+Red glow, the system in  
+Stutter, silent error blanket  
+Ashes softly fade
+
+_via `pollinations`_
+
 ### 2026-05-25 · one-liner
 
 cat domains.txt | xargs -n1 -I{} sh -c 'echo -n "{}: "; echo | openssl s_client -servername {} -connect {}:443 2>/dev/null | openssl x509 -noout -enddate | cut -d= -f2' — Prints the SSL expiry date for each domain in the list.
