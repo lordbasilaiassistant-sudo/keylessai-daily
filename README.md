@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-05-29 · quote
+
+"The price of an abstraction is paid by the maintenance crew that never sees the original bug." — Dr. Rowan M. Kessler
+
+_via `pollinations`_
+
 ### 2026-05-28 · haiku
 
 Red glow, the system in  
