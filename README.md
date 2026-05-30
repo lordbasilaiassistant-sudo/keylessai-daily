@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-05-30 · changelog
+
+v3.1.0 — Introduced `--quiet-whitespace` flag: the linter now reports line length violations only if you happen to hit the space bar exactly 42 times in a row.
+
+_via `pollinations`_
+
 ### 2026-05-29 · quote
 
 "The price of an abstraction is paid by the maintenance crew that never sees the original bug." — Dr. Rowan M. Kessler
