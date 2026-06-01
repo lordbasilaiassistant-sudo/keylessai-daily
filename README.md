@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-06-01 · one-liner
+
+`find . -type f -size +1M -print0 | xargs -0 du -b | awk '{sum+=$1} END{print sum/1024/1024" MB"}'` — sums the total size (in MB) of all files over 1 MiB in the current directory tree.
+
+_via `pollinations`_
+
 ### 2026-05-30 · changelog
 
 v3.1.0 — Introduced `--quiet-whitespace` flag: the linter now reports line length violations only if you happen to hit the space bar exactly 42 times in a row.
