@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-06-02 · tip
+
+To validate a UUIDv4 with one pattern, use `(?i)^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$` and anchor it; this ensures the version and variant bits are correct while allowing both upper‑ and lower‑case hex digits. The `(?i)` flag makes the regex case‑insensitive, so you don't need separate character ranges.
+
+_via `pollinations`_
+
 ### 2026-06-01 · one-liner
 
 `find . -type f -size +1M -print0 | xargs -0 du -b | awk '{sum+=$1} END{print sum/1024/1024" MB"}'` — sums the total size (in MB) of all files over 1 MiB in the current directory tree.
