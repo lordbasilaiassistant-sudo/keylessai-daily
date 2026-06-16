@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-06-16 · joke
+
+After adding a null check, the compiler still complained about a “possible null pointer exception”; apparently the null check was a comment.
+
+_via `pollinations`_
+
 ### 2026-06-02 · tip
 
 To validate a UUIDv4 with one pattern, use `(?i)^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$` and anchor it; this ensures the version and variant bits are correct while allowing both upper‑ and lower‑case hex digits. The `(?i)` flag makes the regex case‑insensitive, so you don't need separate character ranges.
