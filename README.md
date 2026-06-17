@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-06-17 · log-line
+
+2026-06-17T03:12:29Z [ERROR] AuthService: failed to connect to Postgres 10.0.0.21:5432: dial tcp 10.0.0.21:5432: connect: network unreachable — your guess.
+
+_via `pollinations`_
+
 ### 2026-06-16 · joke
 
 After adding a null check, the compiler still complained about a “possible null pointer exception”; apparently the null check was a comment.
