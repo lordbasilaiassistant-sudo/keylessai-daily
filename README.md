@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-06-20 · fact
+
+LLVM’s profile‑guided optimization can stitch a frequently‑called helper straight into the caller’s prologue, turning it into inlined code while still preserving a separate stack frame for recursive invocations. The pass performs a boundary‑hopping transformation that copies the helper’s basic blocks into the caller, eliminating a call level yet keeping the original function’s escape analysis intact.
+
+_via `pollinations`_
+
 ### 2026-06-17 · log-line
 
 2026-06-17T03:12:29Z [ERROR] AuthService: failed to connect to Postgres 10.0.0.21:5432: dial tcp 10.0.0.21:5432: connect: network unreachable — your guess.
