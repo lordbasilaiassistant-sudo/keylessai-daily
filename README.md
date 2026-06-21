@@ -37,6 +37,14 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-06-21 · haiku
+
+Empty module waits  
+Its code sighs alone midnight  
+Lonely import sleeps
+
+_via `pollinations`_
+
 ### 2026-06-20 · fact
 
 LLVM’s profile‑guided optimization can stitch a frequently‑called helper straight into the caller’s prologue, turning it into inlined code while still preserving a separate stack frame for recursive invocations. The pass performs a boundary‑hopping transformation that copies the helper’s basic blocks into the caller, eliminating a call level yet keeping the original function’s escape analysis intact.
