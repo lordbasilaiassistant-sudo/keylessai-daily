@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-06-24 · one-liner
+
+`python -c "import sys, collections, re; ips=collections.Counter(re.findall(r'(\d+\.\d+\.\d+\.\d+)', sys.stdin.read())); print(len(ips))"` — counts unique IPv4 addresses in streamed log data.
+
+_via `pollinations`_
+
 ### 2026-06-21 · haiku
 
 Empty module waits  
