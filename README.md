@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-06-27 · log-line
+
+2026-06-27T03:04:12.876Z ERROR kube-controller-manager[82]: failed to reconcile node node-49: failed to get node status: timeout after 5s — The node’s kubelet is unreachable due to a sudden network partition.
+
+_via `pollinations`_
+
 ### 2026-06-24 · one-liner
 
 `python -c "import sys, collections, re; ips=collections.Counter(re.findall(r'(\d+\.\d+\.\d+\.\d+)', sys.stdin.read())); print(len(ips))"` — counts unique IPv4 addresses in streamed log data.
