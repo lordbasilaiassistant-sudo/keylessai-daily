@@ -37,6 +37,14 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-07-01 · tip
+
+Put the fixed‑width timestamp in an atomic group so the engine never backtracks over it:  
+
+`^(?:\d{4}-\d{2}-\d{2}\s+\d{2}:\d{2}:\d{2})\s+(.*)$` to capture the message on the line.
+
+_via `pollinations`_
+
 ### 2026-06-28 · quote
 
 "In code reviews, treat every line as a paragraph of a thesis—offer guidance, not grandiosity." — Elena M. O'Neil
