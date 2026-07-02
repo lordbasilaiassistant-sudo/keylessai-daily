@@ -37,6 +37,12 @@ billing to set up. Nothing.
 ## The log
 
 <!-- DAILY_LOG_START -->
+### 2026-07-02 · changelog
+
+v1.4.8 — fixed a bug where the client would crash on 0‑byte keep‑alive chunks, because servers incorrectly send “null” heartbeats; a new `--allow-empty-chunks` flag lets you politely ignore them.
+
+_via `pollinations`_
+
 ### 2026-07-01 · tip
 
 Put the fixed‑width timestamp in an atomic group so the engine never backtracks over it:  
